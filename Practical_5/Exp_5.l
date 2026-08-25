@@ -6,7 +6,6 @@ char changeCase(char c) {
 		return c - 'a' + 'A';
 	else if (c >= 'A' && c <= 'Z')
         	return c - 'A' + 'a';  
-
     return c;
 
 }
